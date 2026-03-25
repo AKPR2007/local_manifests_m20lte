@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Remotes-->
+    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-20" />
+    <remote name="los-21"         fetch="https://github.com/LineageOS"           revision="lineage-21.0" />
+    <remote name="parikk"         fetch="https://github.com/parikk"              revision="lineage-20" />
+    <remote name="parikk-evo"     fetch="https://github.com/parikk"              revision="13-evox" />
+    <remote name="samarv"         fetch="https://github.com/SamarV-121"          revision="lineage-20" />
+    <remote name="akpr-evo"       fetch="https://github.com/AKPR2007"            revision="13-evox" />
+
+    <!--Devices Trees-->
+    <project name="android_device_samsung_m20lte"                   path="device/samsung/m20lte"                remote="parikk-evo" />
+    <project name="android_device_samsung_universal7904-common"     path="device/samsung/universal7904-common"  remote="parikk-evo" />
+    <project name="android_device_samsung_slsi_sepolicy"            path="device/samsung_slsi/sepolicy"         remote="los" />
+
+    <!--Vendors Tree-->
+    <project name="proprietary_vendor_samsung_m20lte"               path="vendor/samsung/m20lte"                remote="samarv" />
+    <project name="proprietary_vendor_samsung_universal7904-common" path="vendor/samsung/universal7904-common"  remote="samarv" />
+
+    <!--Kernel Tree-->
+    <project name="kernel_samsung_universal7904"                    path="kernel/samsung/universal7904"         remote="parikk-evo" />
+
+    <!--Hardware dependencies-->
+    <project name="android_hardware_samsung"                                      path="hardware/samsung"                                      remote="los" />
+    <project name="android_hardware_samsung_nfc"                                  path="hardware/samsung/nfc"                                  remote="los-21" />
+    <project name="android_hardware_samsung_slsi_libbt"                           path="hardware/samsung_slsi/libbt"                           remote="los" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"            path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"            remote="los" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"  path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"  remote="los" />
+</manifest>
