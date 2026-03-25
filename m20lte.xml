@@ -9,8 +9,8 @@
     <remote name="akpr-evo"       fetch="https://github.com/AKPR2007"            revision="13-evox" />
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_m20lte"                   path="device/samsung/m20lte"                remote="parikk-evo" />
-    <project name="android_device_samsung_universal7904-common"     path="device/samsung/universal7904-common"  remote="parikk-evo" />
+    <project name="android_device_samsung_m20lte"                   path="device/samsung/m20lte"                remote="samarv" />
+    <project name="android_device_samsung_universal7904-common"     path="device/samsung/universal7904-common"  remote="samarv" />
     <project name="android_device_samsung_slsi_sepolicy"            path="device/samsung_slsi/sepolicy"         remote="los" />
 
     <!--Vendors Tree-->
@@ -18,7 +18,7 @@
     <project name="proprietary_vendor_samsung_universal7904-common" path="vendor/samsung/universal7904-common"  remote="samarv" />
 
     <!--Kernel Tree-->
-    <project name="kernel_samsung_universal7904"                    path="kernel/samsung/universal7904"         remote="parikk-evo" />
+    <project name="android_kernel_samsung_universal7904"            path="kernel/samsung/universal7904"         remote="samarv" />
 
     <!--Remove Duplicates-->
     <remove-project path="hardware/samsung/nfc" />
