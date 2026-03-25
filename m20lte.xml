@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remotes-->
-    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-20" />
+    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
     <remote name="los-21"         fetch="https://github.com/LineageOS"           revision="lineage-21.0" />
     <remote name="parikk"         fetch="https://github.com/parikk"              revision="lineage-20" />
     <remote name="parikk-evo"     fetch="https://github.com/parikk"              revision="13-evox" />
-    <remote name="samarv"         fetch="https://github.com/SamarV-121"          revision="lineage-20" />
+    <remote name="samarv"         fetch="https://github.com/SamarV-121"          revision="lineage-21" />
     <remote name="akpr-evo"       fetch="https://github.com/AKPR2007"            revision="13-evox" />
 
     <!--Devices Trees-->
