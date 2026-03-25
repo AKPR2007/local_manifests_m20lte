@@ -18,7 +18,7 @@
     <project name="proprietary_vendor_samsung_universal7904-common" path="vendor/samsung/universal7904-common"  remote="samarv" />
 
     <!--Kernel Tree-->
-    <project name="kernel_samsung_universal7904"                    path="kernel/samsung/universal7904"         remote="parikk-evo" />
+    <project name="kernel_samsung_universal7904"                    path="kernel/samsung/universal7904"         remote="parikk" />
 
     <!--Remove Duplicates-->
     <remove-project path="hardware/samsung/nfc" />
